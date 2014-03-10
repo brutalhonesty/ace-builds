@@ -11705,7 +11705,6 @@ var TextInput = function(parentNode, host) {
                 host.onPaste(data);
             if (useragent.isIE)
                 setTimeout(resetSelection);
-            event.preventDefault(e);
         }
         else {
             text.value = "";

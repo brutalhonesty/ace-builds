@@ -11443,7 +11443,7 @@ var event = require("../lib/event");
 var useragent = require("../lib/useragent");
 var dom = require("../lib/dom");
 var lang = require("../lib/lang");
-var BROKEN_SETDATA = useragent.isChrome < 18;
+var BROKEN_SETDATA = true;
 
 var TextInput = function(parentNode, host) {
     var text = dom.createElement("textarea");

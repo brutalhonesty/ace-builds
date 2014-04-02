@@ -1,0 +1,13 @@
+{
+  "name": "ajaxorg/ace-builds",
+  "version": "1.0.0",
+  "main": "src-min-noconflict/ace.js",
+  "description": "Ajax.org Cloud9 Editor",
+  "license": "BSD",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
